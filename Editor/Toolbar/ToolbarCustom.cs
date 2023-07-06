@@ -70,6 +70,8 @@ public class ToolbarCustom
 
         GUILayout.Label($"{diff.TotalHours:00}:{diff.Minutes:00}:{diff.Seconds:00}", deathClockStyle, GUILayout.Width(70));
 
+        GUILayout.Space(20);
+
         GUILayout.EndHorizontal();
     }
 
@@ -86,7 +88,7 @@ public class ToolbarCustom
 
         int spacing = 10;
 
-        if (settings.ListScenes)
+        if (settings.ListScenes && EditorBuildSettings.scenes.Length != 0)
         {
             buttonStyle.fontStyle = FontStyle.Bold;
 

@@ -1,0 +1,7 @@
+{
+    "name": "com.kipash.gmtk-death-clock",
+    "displayName": "GMTK Death Clock",
+    "version": "0.0.1",
+    "unity": "2020.3",
+    "description": "Displays a countdown and there's a random cat button!"
+}
